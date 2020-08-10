@@ -31,12 +31,66 @@ ch_title("About Us")
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left" data-aos-delay="200">
                         <p>
-                        As the years go in Ireland, especially in Dublin, I spotted a gap between prices of rents/houses and the salary that most parts of the population get. As the rent/houses price increases exponentially every year, the minimum wage does not keep up this growth, as consequences of this phenomenon, an old problem started to be more evident, the number of homeless people living on the Irish streets.   
-As FocusIreland shows us, in the first week of 2020 around 10 thousand people were homeless in Ireland, these numbers include adults and children. The numbers shown on their website, from 2015 to now, the number of homeless families increased by 216%. This way of turning the problem into a crisis, the homeless crisis in Ireland.
-We know as well that homelessness is less fortuned of human basic needs than everyone else, one of these needs is food to not suffer from starvation that is one of the causes that kills most of the homelessness globally. I noticed because I worked as a chef in few restaurants in Dublin and according to Hugh O’Connell writer at TheJournal.ie, restaurants are throwing away an enormous amount of food every week that could be sent to help who needs and minimise the problem previously mentioned.
-With all this above happening, homeless crises and food being thrown away in big quantities, I decided to help in some way, so I came up with an idea of creating a website developed in PHP called FoodExchange, where I will facilitate the contact among people, NGO’s and restaurants that want to support this cause.
+                        The main purpose of my project is to develop a Web Application that can be used to help minimize the amount of being wasted by restaurants, cafés and business canteens. The goal is to redirect this food and put it to good use by providing them to food banks, charities so they can give out this food to the homeless and less fortunate instead of having good edible food being discarded and wasted.
                         </p>
                     
+                    <br>
+                    <br>
+                    <br>
+
+                    <div>
+                    <!-- Add icon library -->
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                            <style>
+                            .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+                            </style>
+                                <div class="card">
+                                     <img src="assets/img/ceo.png" alt="Gustavo Barbosa" style="width:100%">
+                                     <h1>Gustavo Barbosa</h1>
+                                        <p class="title">CEO & Founder, FoodExchange</p>
+                                    <p>CCT College</p>
+                                     <a href="#"><i class="fa fa-dribbble"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="https://www.linkedin.com/in/gustavo-barbosa-b14b3088/"><i class="fa fa-linkedin"></i></a>
+                                     <a href="https://www.facebook.com/gustavo.vieira.562"><i class="fa fa-facebook"></i></a>
+                                     <p><button>Contact</button></p>
+                                </div>
+                    
+                    </div>
+                        
                     </div>
                 </div>
 

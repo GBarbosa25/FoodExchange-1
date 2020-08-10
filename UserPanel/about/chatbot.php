@@ -1,13 +1,14 @@
 <?php
-include_once '../includeFile/header.php'; 
-ch_title("About Us");
-$con = connect();
-
+include '../db/connect.php';
 if(!isset($_SESSION['user']['email'])){
     header('location: ../login/login.php');
 }
-?>
+include_once '../includeFile/header.php'; 
+ch_title("List Of NGO");
 
+
+
+?>
 <body class="hold-transition sidebar-mini layout-fixed">
     <div class="wrapper">
         <?php
@@ -20,12 +21,12 @@ if(!isset($_SESSION['user']['email'])){
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1>About Us</h1>
+                            <h1>How to use the chatbot</h1>
                         </div>
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
                                 <li class="breadcrumb-item"><a href="../ngo/list_of_ngo.php">Home</a></li>
-                                <li class="breadcrumb-item active">About Us</li>
+                                <li class="breadcrumb-item active">List Of NGO's</li>
                             </ol>
                         </div>
                         
@@ -33,20 +34,26 @@ if(!isset($_SESSION['user']['email'])){
                 </div>
                 <!-- /.container-fluid -->
             </section>
-            <div class="col-12">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title"><b>Card title</b></h5>
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">how to use the chatbot</h3>
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body table-responsive p-0">
+                            <table class="table table-hover">
 
-                        <p class="card-text">
-                        Some quick example text to build on the card title and make up the bulk of the card's
-                        content.
-                        </p>
-                        <p class="card-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>
-                        
+                                <tbody>
+                        <p>OPEN YOUR TELEGRAM APP OR WEBSITE</p><BR>
+                        <p>ADD @suedyy_bot as your friend </p><BR>
+                        <p>then type hi or hello in the conversation</p><BR>
+                        <p>and you will be ready to book a volunteer day</p>
+                            </table>
+                        </div>
+                    <!-- /.card-body -->
                     </div>
+                    <!-- /.card -->
                 </div>
             </div>
         </div>
